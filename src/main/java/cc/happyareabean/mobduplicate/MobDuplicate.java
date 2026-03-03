@@ -41,8 +41,7 @@ public class MobDuplicate extends JavaPlugin {
     public void onEnable() {
         INSTANCE = this;
 
-        getSLF4JLogger().info("ModDuplicate by {} has been enabled!", getPluginMeta().getAuthors());
-        getSLF4JLogger().info("Current version: {}", getPluginMeta().getVersion());
+        getSLF4JLogger().info("ModDuplicate v{} has been enabled!", getPluginMeta().getVersion());
 
         loadCommands();
         loadListener();
