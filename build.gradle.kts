@@ -32,6 +32,10 @@ dependencies {
 
 tasks.shadowJar {
     archiveClassifier.set("")
+
+    if (System.getenv("DEV") == null) {
+        relocate("revxrsal.commands", "cc.happyareabean.mobduplicate.libs.lamp")
+    }
 }
 
 tasks.runServer {
