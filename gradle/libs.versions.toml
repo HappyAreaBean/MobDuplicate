@@ -7,7 +7,7 @@ shadow = "9.3.1"
 licenser = "2.2.2"
 
 # Dependency versions
-lamp = "4.0.0-rc.14"
+lamp = "4.0.0-rc.17"
 paper-api = "1.21.11-R0.1-SNAPSHOT"
 
 [libraries]
